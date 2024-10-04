@@ -24,7 +24,7 @@ try{
     });
     console.log("connected to monoDB");
 }catch (error) {
-    console.log("Error: ", error);
+    console.log("error: ", error);
 }
 
 app.use("/book", bookRoute);
